@@ -17,7 +17,7 @@
       body {
         margin: 0px 130px 0px 130px;
         padding: 40px 50px 40px 50px;
-        /* background-color: rgb(204,220,245); */
+        background-color: rgb(228,236,247);
       }
 
       header img {
@@ -28,17 +28,17 @@
       }
 
       .navbar-nav {
-          float:none;
-          display: inline-block;
-          margin:0 auto;
-          padding-top: 10px;
+        float:none;
+        display: inline-block;
+        margin:0 auto;
+        padding-top: 10px;
       }
 
       .navbar-nav > li {
-          display: inline-block;
-          float:none;
-          font-size: 1.4em;
-          font-weight: bold;
+        display: inline-block;
+        float:none;
+        font-size: 1.4em;
+        font-weight: bold;
       }
 
       .title {
@@ -54,9 +54,6 @@
         font-weight: bold;
       }
 
-      .btn {
-        color:white;
-      }
 
       .blockcenter {
         display: inline-block;
@@ -93,13 +90,12 @@
       }
 
       #contact a {
-        /*background-color: #339933;*/
         color: white;
       }
 
       #footerpic img {
-        max-width: 80%;
-        height: auto;
+        width: 80%;
+        height: 80%;
         display: block;
         margin: 0 auto;
         padding: 10px 0px 20px 0px;
@@ -147,11 +143,9 @@
 
   <body data-spy="scroll" id="top">
 
-
-
     <div class="container">
       <header>
-        <img src="Resources/Logo.jpg">
+        <img src="Resources/logo.png">
       </header>
     </div>
 
@@ -177,7 +171,7 @@
         <div class="col-md-6">
           <h3 class="title">Services</h3>
           <p>We are a locally owned self service laundromat with wash and fold services.
-            We have proudly served the valley for over 10 years. Here are some reasons to visit us today:
+            We have proudly served the valley for over 10 years. Here are some reasons to visit us today:</p>
             <ul>
               <li>Full time attended store</li>
               <li>Always clean & well lit</li>
@@ -192,31 +186,31 @@
             <p>*Commercial wash & fold services also available</p>
           </div>
 
-          <div class="col-md-6">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="col-md-6" id="slideshow">
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
                 <li data-target="#myCarousel" data-slide-to="4"></li>
-
               </ol>
+
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                  <img class="d-block img-fluid" src="Resources/Slideshow/Storefront.jpg">
+                  <img class="d-block img-fluid" style="width:100%; height:100%" src="Resources/Slideshow/Storefront.jpg">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block img-fluid" src="Resources/Slideshow/Hall.jpg">
+                  <img class="d-block img-fluid" style="width:100%; height:100%" src="Resources/Slideshow/Hall.jpg">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block img-fluid" src="Resources/Slideshow/Attendant.jpg">
+                  <img class="d-block img-fluid" style="width:100%; height:100%" src="Resources/Slideshow/Attendant.jpg">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block img-fluid" src="Resources/Slideshow/Machines.jpg">
+                  <img class="d-block img-fluid" style="width:100%; height:100%" src="Resources/Slideshow/Machines.jpg">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block img-fluid" src="Resources/Slideshow/Vending.jpg">
+                  <img class="d-block img-fluid" style="width:100%; height:100%" src="Resources/Slideshow/Vending.jpg">
                 </div>
               </div>
             </div>
@@ -239,7 +233,7 @@
           (956)-287-8441 <br />
           Open 7 Days a Week <br />
           7AM to 10PM
-      </div>
+        </div>
     </div>
 
       <div class="row" id="googleMaps">
@@ -357,8 +351,6 @@
       });
     </script>
 
-    <script src="jquery.min.js"></script>
-    <script src="js/jquery.contact-buttons.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
